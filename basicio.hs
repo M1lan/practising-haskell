@@ -1,1 +1,5 @@
-/home/milan/Dropbox/code/basicio.hs
+-- basic I/O
+main = do
+  putStrLn "Greetings! Who are you?"
+  inpStr <- getLine
+  putStrLn $ "Welcome, " ++ inpStr ++ "!"
